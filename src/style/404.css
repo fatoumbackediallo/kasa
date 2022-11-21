@@ -1,0 +1,54 @@
+.NotFoundContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.h1Style {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 280px;
+  font-style: normal;
+  font-weight: 700;
+  color: #ff6060;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 150px;
+  margin-right: 311px;
+  margin-left: 332px;
+  margin-bottom: 66px;
+}
+
+.h2Format {
+  display: flex;
+  align-items: flex-end;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 51px;
+  color: #ff6060;
+  margin-bottom: 150px;
+  margin-right: 170px;
+  margin-left: 195px;
+}
+
+.pStyle {
+  display: flex;
+  align-items: flex-end;
+  text-decoration: underline;
+  color: #ff6060;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  cursor: pointer;
+  margin-bottom: 159px;
+}

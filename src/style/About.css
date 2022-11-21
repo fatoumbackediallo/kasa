@@ -1,0 +1,9 @@
+.aboutBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 223px;
+  border-radius: 25px;
+  background: url("../assets/about-banner.png");
+  background-size: cover;
+}
