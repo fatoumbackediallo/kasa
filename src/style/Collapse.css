@@ -1,14 +1,6 @@
-.Box {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-  cursor: pointer;
-}
-
-.boxTitle {
-  display: flex;
-  align-items: center;
+.box .buttonTitle {
   background-color: #ff6060;
+  text-align: left;
   border-radius: 5px;
   padding-left: 10px;
   color: #ffffff;
@@ -16,11 +8,14 @@
   font-weight: 500;
   font-family: "Montserrat";
   font-style: normal;
-  margin-top: 30px;
+  margin-top: 20px;
   height: 47px;
+  cursor: pointer;
+  border-color: transparent;
+  width: 100%;
 }
 
-.boxChildren {
+.box .buttonChildren {
   display: flex;
   background-color: #f7f7f7;
   border-radius: 5px;
@@ -30,14 +25,18 @@
   font-weight: 500;
   font-family: "Montserrat";
   font-style: normal;
-  margin-bottom: 10px;
-}
-.collapseBox {
-  overflow: hidden;
-  transition: height 0.3s eas-out;
+  margin-bottom: 15px;
+  /* margin-block-start: 0px; */
+  /* margin-block-end: 0px; */
 }
 
-.chevronStyle {
-  background-color: #ffffff;
-  transform: rotate(90deg);
+.box .boxParent {
+  height: 0px;
+  overflow: hidden;
+  transition: height ease-out 0.3s;
 }
+
+/* .chevronStyle {
+  color: #ffffff;
+  transform: rotate(90deg);
+} */
