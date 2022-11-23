@@ -17,7 +17,7 @@ function Home() {
               className="imgStyle"
               alt={logement.title}
             ></img>
-            <Link to="./HouseDetails/houseDetails" className="logementTitle">
+            <Link to={"/houseDetails/" + logement.id} className="logementTitle">
               {logement.title}
             </Link>
           </div>

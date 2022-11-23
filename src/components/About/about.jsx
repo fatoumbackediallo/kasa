@@ -1,6 +1,6 @@
 import React from "react";
 import "../../style/About.css";
-import Collapsible from "../collapse";
+import Collapsible from "../Collapse";
 
 function about() {
   return (

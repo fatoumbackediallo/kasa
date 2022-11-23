@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useRef } from "react";
 import "../style/Collapse.css";
+import { ReactComponent as ChevronDown } from "../assets/chevron-down-solid.svg";
 
 function Collapsible(props) {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,8 +12,13 @@ function Collapsible(props) {
   return (
     <div className="box">
       <button className="buttonTitle" onClick={() => setIsOpen(!isOpen)}>
-        {props.label}
+        {props.label}{" "}
+        <ChevronDown
+          fill="#ffffff"
+          className={"chevronStyle" + (isOpen ? " collapsibleOpen" : "")}
+        />
       </button>
+
       <div
         className="boxParent"
         ref={parentRef}
