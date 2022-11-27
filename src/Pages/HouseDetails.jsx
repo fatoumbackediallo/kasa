@@ -1,13 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import "../../style/HouseDetails.css";
-import SlideShow from "../SlideShow";
-import logements from "../../data/logements.json";
-import Collapsible from "../Collapse";
-import Host from "../Host";
-import Chip from "../Chip";
-import Stars from "../Stars";
-import Notfound from "../NotFound/Notfound";
+import "../style/HouseDetails.css";
+import SlideShow from "../components/SlideShow";
+import logements from "../data/logements.json";
+import Collapsible from "../components/Collapse";
+import Host from "../components/Host";
+import Chip from "../components/Chip";
+import Stars from "../components/Stars";
+import Notfound from "./Notfound";
 
 function HouseDetails() {
   const { id } = useParams();

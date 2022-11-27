@@ -8,7 +8,7 @@
 
 .hostNameFormat {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   text-align: right;
   font-family: "Montserrat";
   font-style: normal;

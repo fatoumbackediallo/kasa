@@ -1,16 +1,16 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./Home/Home";
-import About from "./About/About";
-import NotFound from "./NotFound/Notfound";
-import HouseDetails from "./HouseDetails/HouseDetails";
+import Home from "../Pages/Home";
+import About from "../Pages/About";
+import NotFound from "../Pages/Notfound";
+import HouseDetails from "../Pages/HouseDetails";
 
 export default function Routeur() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/About" element={<About />} />
-      <Route path="/houseDetails/:id" element={<HouseDetails />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/house-details/:id" element={<HouseDetails />} />
       <Route path="/*" element={<NotFound />} />
     </Routes>
   );

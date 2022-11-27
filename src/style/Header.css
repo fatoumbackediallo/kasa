@@ -25,7 +25,7 @@
 .menu_Accueil {
   display: flex;
   text-decoration: underline;
-  font-family: "Monserrat";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -36,7 +36,7 @@
 .menu_Apropos {
   display: flex;
   align-items: flex-end;
-  font-family: "Monserrat";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;

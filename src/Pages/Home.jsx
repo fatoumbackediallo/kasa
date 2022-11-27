@@ -1,9 +1,9 @@
 import React from "react";
-import Banner from "../Banner";
-import logements from "../../data/logements.json";
-import "../../style/Home.css";
+import Banner from "../components/Banner";
+import logements from "../data/logements.json";
+import "../style/Home.css";
 import { Link } from "react-router-dom";
-import HomeImageBanner from "../../assets/imgHomeBanner.png";
+import HomeImageBanner from "../assets/imgHomeBanner.png";
 
 function Home() {
   return (
@@ -21,7 +21,10 @@ function Home() {
               alt={logement.title}
             ></img>
             <div className="logementBoxOverlay"></div>
-            <Link to={"/houseDetails/" + logement.id} className="logementTitle">
+            <Link
+              to={"/house-details/" + logement.id}
+              className="logementTitle"
+            >
               {logement.title}
             </Link>
           </div>

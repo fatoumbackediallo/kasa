@@ -1,10 +1,10 @@
 import React from "react";
-import "../../style/About.css";
-import Banner from "../Banner";
-import Collapsible from "../Collapse";
-import AboutImageBanner from "../../assets/about-banner.png";
+import "../style/About.css";
+import Banner from "../components/Banner";
+import Collapsible from "../components/Collapse";
+import AboutImageBanner from "../assets/about-banner.png";
 
-function about() {
+function About() {
   return (
     <section>
       <div className="BannerBox">
@@ -53,4 +53,4 @@ function about() {
   );
 }
 
-export default about;
+export default About;

@@ -10,14 +10,19 @@ function Stars({ rating }) {
   return (
     <div className="starsContainer">
       {starFilledArray.map((s, i) => (
-        <img key={`${s}-${i}`} src={starFilled} className="starStyle" alt="" />
+        <img
+          key={`${s}-${i}`}
+          src={starFilled}
+          className="starStyle"
+          alt="starFilled"
+        />
       ))}
       {starUnfilledArray.map((s, i) => (
         <img
           key={`${s}-${i}`}
           src={starUnfilled}
           className="starStyle"
-          alt=""
+          alt="starUnfilled"
         />
       ))}
     </div>
