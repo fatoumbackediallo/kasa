@@ -1,3 +1,7 @@
+.box {
+  width: 100%;
+}
+
 .box .buttonTitle {
   display: flex;
   background-color: #ff6060;
@@ -42,4 +46,26 @@
 
 .collapsibleOpen {
   transform: rotate(180deg);
+}
+
+@media screen and (max-width: 768px) {
+  .box .buttonTitle {
+    border-radius: 5px;
+    padding-left: 10px;
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+    height: 30px;
+    cursor: pointer;
+    border-color: transparent;
+    width: 100%;
+    padding-top: 5px;
+  }
+
+  .box .buttonChildren {
+    font-size: 12px;
+  }
+  .chevronStyle {
+    height: 14px;
+  }
 }

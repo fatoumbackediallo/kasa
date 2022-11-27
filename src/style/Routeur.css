@@ -1,3 +1,9 @@
 .routerFormat {
   min-height: 747px;
 }
+
+@media screen and (max-width: 768px) {
+  .routerFormat {
+    min-height: 812px;
+  }
+}

@@ -1,11 +1,15 @@
 import React from "react";
 import "../../style/About.css";
+import Banner from "../Banner";
 import Collapsible from "../Collapse";
+import AboutImageBanner from "../../assets/about-banner.png";
 
 function about() {
   return (
     <section>
-      <div className="aboutBanner"></div>
+      <div className="BannerBox">
+        <Banner image={AboutImageBanner} />
+      </div>
       <div>
         <Collapsible label="Fiabilité">
           <p>

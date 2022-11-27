@@ -1,5 +1,48 @@
-.picturesStyle {
+.slideFormat {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
   width: 100%;
+}
+
+.picturesStyle {
+  display: flex;
+  width: 1245px;
   height: 415px;
   border-radius: 25px;
+  object-fit: cover;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  border: transparent;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.chevronFormat {
+  width: 46px;
+  height: 79px;
+}
+
+.button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .picturesStyle {
+    width: 335px;
+    height: 255px;
+    border-radius: 10px;
+  }
+
+  .chevronFormat {
+    width: 11px;
+    height: 19px;
+  }
 }

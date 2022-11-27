@@ -1,0 +1,53 @@
+.hostFormat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.hostNameFormat {
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ff6060;
+  margin-right: 10px;
+  width: 93px;
+  height: 52px;
+}
+
+.hostPictureStyle {
+  width: 64px;
+  height: 64px;
+  background-color: #c4c4c4;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .hostFormat {
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: space-between;
+  }
+
+  .hostNameFormat {
+    display: flex;
+    width: 93px;
+    height: 33px;
+    font-size: 12px;
+    line-height: 30px;
+    margin-right: 0;
+  }
+
+  .hostPictureStyle {
+    width: 32px;
+    height: 32px;
+    border-radius: 30px;
+  }
+}

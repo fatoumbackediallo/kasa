@@ -1,13 +1,16 @@
 import React from "react";
-import HomeBanner from "../Homebanner";
+import Banner from "../Banner";
 import logements from "../../data/logements.json";
 import "../../style/Home.css";
 import { Link } from "react-router-dom";
+import HomeImageBanner from "../../assets/imgHomeBanner.png";
 
 function Home() {
   return (
     <div>
-      <HomeBanner />
+      <div className="bannerStyle">
+        <Banner text="Chez vous, partout et ailleurs" image={HomeImageBanner} />
+      </div>
       <section className="logementsContainer">
         {logements.map((logement) => (
           <div key={logement.id} className="logementBox">
@@ -17,6 +20,7 @@ function Home() {
               className="imgStyle"
               alt={logement.title}
             ></img>
+            <div className="logementBoxOverlay"></div>
             <Link to={"/houseDetails/" + logement.id} className="logementTitle">
               {logement.title}
             </Link>
