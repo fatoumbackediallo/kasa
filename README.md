@@ -1,3 +1,6 @@
+#About the project
+Kasa has been in the business of renting apartments between individuals for almost 10 years now. With more than 500 advertisements posted every day, Kasa is one of the leaders in the rental of apartments between individuals in France.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
