@@ -38,11 +38,12 @@
 
   .hostNameFormat {
     display: flex;
-    width: 93px;
-    height: 33px;
+    width: 82px;
     font-size: 12px;
-    line-height: 30px;
-    margin-right: 0;
+    line-height: 17px;
+    margin-right: 10px;
+    margin-block-start: 0;
+    margin-block-end: 0;
   }
 
   .hostPictureStyle {
