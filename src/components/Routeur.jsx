@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home/Home";
 import About from "./About/About";
-import NotFound from "./NotFound/404";
+import NotFound from "./NotFound/Notfound";
 import HouseDetails from "./HouseDetails/HouseDetails";
 
 export default function Routeur() {

@@ -7,7 +7,7 @@ import Collapsible from "../Collapse";
 import Host from "../Host";
 import Chip from "../Chip";
 import Stars from "../Stars";
-// import Chip from "../Chip";
+import Notfound from "../NotFound/Notfound";
 
 function HouseDetails() {
   const { id } = useParams();
@@ -16,7 +16,7 @@ function HouseDetails() {
     return logement.id === id;
   });
 
-  return (
+  return logement ? (
     <main>
       <section>
         <SlideShow pictures={logement.pictures} />
@@ -75,6 +75,8 @@ function HouseDetails() {
         </div>
       </section>
     </main>
+  ) : (
+    <Notfound />
   );
 }
 
